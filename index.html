@@ -6,49 +6,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
     body {
-      background-color: #111;
-      color: #eee;
+      margin: 0;
+      padding: 40px;
       font-family: 'Segoe UI', sans-serif;
       text-align: center;
-      padding: 40px;
+      color: #eee;
+      background: linear-gradient(135deg, #0a0f2c, #000000);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
+
     h1 {
       font-size: 2em;
       margin-bottom: 0.5em;
+      text-shadow: 0 0 10px #000;
     }
+
     p {
       max-width: 600px;
       margin: auto;
       font-size: 1.1em;
       color: #ccc;
     }
+
     a.button {
       display: inline-block;
       margin-top: 2em;
       padding: 15px 30px;
-      background-color: #1e90ff;
+      background: linear-gradient(145deg, #1e90ff, #187bcd);
       color: white;
       font-size: 1.2em;
       text-decoration: none;
       border-radius: 10px;
-      transition: background 0.3s;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      transition: background 0.3s, transform 0.2s;
     }
+
     a.button:hover {
-      background-color: #187bcd;
+      background: linear-gradient(145deg, #187bcd, #1e90ff);
+      transform: scale(1.03);
     }
+
     footer {
       margin-top: 3em;
       font-size: 0.9em;
-      color: #555;
+      color: #777;
     }
   </style>
 </head>
 <body>
   <h1>🥗 Salad King's Nostalgia Pack</h1>
   <p>
-    Relive the classic Agar.io experience. Also, FUCK slowteamers.
+    Relive the classic Agar.io experience. Say goodbye to laggy teamers and the new UI —
+    this mod restores the game with a powerful custom client.
   </p>
-  <a class="button" href="https://iownffa.github.io/slop/user.js">Install via Tampermonkey</a>
+  <a class="button" href="https://iownffa.github.io/pop/redirect.html">Install via Tampermonkey</a>
   <footer>
     © Salad King — For private use only. Not affiliated with Miniclip.
   </footer>
